@@ -1,0 +1,161 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.character-list-container {
+  margin: 20px;
+}
+
+.character-list-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-label {
+  margin-right: 10px;
+}
+
+.search-dropdown {
+  padding: 5px;
+}
+
+.search-input {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.character-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.character-table th,
+.character-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.character-table th {
+  background-color: #f2f2f2;
+}
+
+.character-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.character-table tr:hover {
+  background-color: #ddd;
+}
+
+.character-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.character-detail-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.character-info {
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.sub-heading {
+  font-size: 16px;
+  color: #777;
+}
+
+.character-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-list-link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-to-list-link:hover {
+  color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.pagination-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-item {
+  margin: 0 5px;
+}
+
+.pagination-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-text {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
